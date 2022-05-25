@@ -125,11 +125,11 @@ dmypy.json
 .pyre/
 
 # Media and Static directories
-/src/myproject/media/
-!/src/myproject/media/.gitkeep
+/src/project/media/
+!/src/project/media/.gitkeep
 
-/src/myproject/static/
-!/src/myproject/static/.gitkeep
+/src/project/static/
+!/src/project/static/.gitkeep
 
 # Building scripts with sensitive environment variables
 build_dev.sh

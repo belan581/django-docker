@@ -1,0 +1,13 @@
+@echo off
+SET DJANGO_SETTINGS_MODULE=project.settings.dev
+SET DJANGO_SECRET_KEY="o6FpG5msqtJUTEKwVt8YvktMmPOrg9lbLO805IEX8ZRXSMH8N0"
+SET DATABASE_NAME=project
+SET DATABASE_USER=project
+SET DATABASE_PASSWORD="12345678"
+SET EMAIL_HOST="localhost"
+SET EMAIL_PORT="25"
+SET EMAIL_HOST_USER=""
+SET EMAIL_HOST_PASSWORD=""
+SET PIP_REQUIREMENTS=dev.txt
+::docker-compose up --detach --build
+docker-compose up --build

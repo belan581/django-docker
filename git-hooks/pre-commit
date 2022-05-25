@@ -27,7 +27,7 @@ def add_to_git(file_path):
 
 
 def main():
-    file_path = abspath("src/myproject/myproject/settings/last-update.txt")
+    file_path = abspath("app/project/settings/last-update.txt")
 
     with open(file_path, 'w') as f:
         f.write(datetime.now().strftime("%Y%m%d%H%M%S"))
